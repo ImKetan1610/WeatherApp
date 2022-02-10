@@ -1,0 +1,83 @@
+#main{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+label{
+    font-size: 24px;
+}
+#main>input{
+    width:200px;
+    height: 30px;
+    font-size: 18px;
+}
+#main>button{
+    width:100px;
+    height: 30px;
+    border:0.2px solid gray;
+    border-radius: 5px;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;
+    border-radius: 10px;
+    padding: 20px;
+}
+#main2{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-column-gap: 10%;
+}
+#container{
+    margin-left: 150px;
+    padding: 20px 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 25px;
+
+}
+#banner{
+    height:200px;
+    /* background-image: url("https://6lli539m39y3hpkelqsm3c2fg-wpengine.netdna-ssl.com/wp-content/uploads/2021/07/shutterstock_1138820348-1-675x380.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+}
+
+h1{
+    color:white;
+    padding: 2% 40%;
+    font-size: 50px;
+    text-align: center;
+}
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1585683936597-63d313c21a87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTM4fHxyYWluJTIwZHJvcHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color:white;
+}
+#forcast{
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:70%;
+    background-color: black;
+    text-align: center;
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
+    gap:0.2%;
+}
+#forcast>div{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+
+}
+#forcast>div>img{
+    margin-top: 10px;
+    padding:1px;
+    width:50%;
+}
